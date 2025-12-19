@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kontak - Kopi Nusantara</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <h1>Kopi Nusantara</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="jenis.html">Jenis Kopi</a>
+      <a href="asal.html">Asal Kopi</a>
+      <a href="manfaat.html">Manfaat Kopi</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="kontak.html" class="active">Kontak</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Kontak Kami</h2>
+    <p>Isi form ini jika ingin bertanya atau memberi masukan.</p>
+
+    <form onsubmit="alert('Terima kasih! Form tidak terkirim karena ini demo.'); return false;">
+      <input type="text" placeholder="Nama" required>
+      <input type="email" placeholder="Email" required>
+      <textarea rows="5" placeholder="Pesan" required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Kopi Nusantara | Dibuat oleh Rahaddyan Rama Wijaya</p>
+  </footer>
+
+</body>
+</html>
